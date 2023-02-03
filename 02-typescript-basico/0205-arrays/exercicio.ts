@@ -14,7 +14,7 @@ interface Curso {
   horas: number;
   idAulas: number[];
   tags: string[];
-  nivel: 'iniciante' | 'avancado';
+  nivel: 'iniciante' | 'avançado';
 }
 
 function mostrarCursos(cursos: Curso[]) {
@@ -22,7 +22,7 @@ function mostrarCursos(cursos: Curso[]) {
     let color;
     if (curso.nivel === 'iniciante') {
       color = 'blue';
-    } else if (curso.nivel === 'avancado') {
+    } else if (curso.nivel === 'avançado') {
       color = 'red';
     }
 

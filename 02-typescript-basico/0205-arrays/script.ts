@@ -13,6 +13,6 @@ console.log(filtrarValores(valores));
 console.log(maiorQuer10(numeros));
 
 const dados = [
-  ['senhor dos aneis', 80],
+  ['senhor dos anéis', 80],
   ['a guerra dos tronos', 120],
 ];
