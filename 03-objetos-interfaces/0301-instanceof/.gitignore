@@ -14,6 +14,7 @@ dist-ssr
 public
 index.html
 script.js
+exercicio.js
 
 # Editor directories and files
 .vscode/*
