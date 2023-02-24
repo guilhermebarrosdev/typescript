@@ -1,4 +1,4 @@
-import plugin from "./plugin.js";
+import plugin from './plugin.js';
 
 // Ativar o plugin
 plugin();
@@ -12,28 +12,28 @@ function handleProduto(dados: any) {
   dados;
 }
 
-const link = document.querySelector("a");
+const link = document.querySelector('a');
 if (link) {
-  link.innerHTML = "Teste";
+  link.innerHTML = 'Teste';
 }
 
-const teste = "ola";
+const teste = 'ola';
 
 function handleClick(this: HTMLElement) {
   console.log(this.innerHTML);
 }
 
-document.documentElement.addEventListener("click", handleClick);
+document.documentElement.addEventListener('click', handleClick);
 
 function trocarModo(modo: string) {
-  if (modo === "dark") {
-    return "color: black;";
+  if (modo === 'dark') {
+    return 'color: black;';
   } else {
-    return "color: white;";
+    return 'color: white;';
   }
 }
 
-trocarModo("light");
+trocarModo('light');
 
 function maiuscula(frase: string) {
   const total = 100;
