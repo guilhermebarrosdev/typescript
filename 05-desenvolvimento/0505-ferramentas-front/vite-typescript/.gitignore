@@ -10,7 +10,15 @@ lerna-debug.log*
 node_modules
 dist
 dist-ssr
+
 *.local
+public
+index.html
+script.js
+script2.js
+script3.js
+exercicio.js
+style.css
 
 # Editor directories and files
 .vscode/*
