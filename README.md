@@ -1,2 +1,3 @@
 # typescript
-Curso de TypeScript da Origamid.....
+
+Curso de TypeScript da Origamid.
