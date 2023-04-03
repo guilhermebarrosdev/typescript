@@ -1,3 +1,3 @@
 ## typescript
 
-Curso de TypeScript da Origamid.
+Curso completo de TypeScript da plataforma de cursos Origamid.
